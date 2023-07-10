@@ -50,16 +50,23 @@ body {
 
 
 @keyframes spin {
-  10% { transform: rotate(0deg); }
-  45% { transform: rotate(180deg); }
-  55% { transform: rotate(180deg); }
-  90% {transform: rotate(360deg); }
-  100% { transform: rotate(360deg);}
-}
-  .sun { 
 
-
-@keyframes spin {}
+  10% {
+    transform: rotate(0deg);
+  }
+  45% {
+    transform: rotate(180deg);
+  }
+  55% {
+    transform: rotate(180deg);
+  }
+  90% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+  
   .sun{ 
     background-color: #f7f7de;
     height: 3.75em;
@@ -93,15 +100,15 @@ body {
   }
 
   .ray1 {
-   height: 0;
-   width: 0.6em;
-   border-radius: 10.6em solid rgba(225, 225, 225, 0.1)
-   border-left: 18em solid transparent;
-   border-right: 1.8em solid transparent;
-   position: absolute;
-   transform: rotate(130deg);
-   bottom: 0.6em;
-   right: 4em;
+    height: 0;
+    width: 0.6em;
+    border-bottom: 10.6em solid rgba(255, 255, 255, 0.1);
+    border-left: 1.8em solid transparent;
+    border-right: 1.8em solid transparent;
+    position: absolute;
+    transform: rotate(130deg);
+    bottom: 0.6em;
+    right: 4em;
   }
 
   .ray2 {
