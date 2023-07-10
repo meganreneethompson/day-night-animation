@@ -16,6 +16,7 @@ body {
   border-radius: 16.8em;
   animation: colors 12s infinite forwards;
 }
+
 @keyframes colors {
   10% {
     background: linear-gradient(#3f006c, #750050, #b10042, #da4837, #f7bb38);
@@ -49,6 +50,7 @@ body {
 
 
 @keyframes spin {
+
   10% {
     transform: rotate(0deg);
   }
@@ -64,7 +66,7 @@ body {
   100% {
     transform: rotate(360deg);
   }
-}
+  
   .sun{ 
     background-color: #f7f7de;
     height: 3.75em;
@@ -78,7 +80,7 @@ body {
   .sun:before,
   .sun:after {
     position: absolute;
-    content: attr();
+    content: "";
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
   }
